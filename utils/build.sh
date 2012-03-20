@@ -1,12 +1,15 @@
 #!/bin/bash
 
+BASEDIR=$(dirname $0)
+cd $BASEDIR
+
 if [ $1 = 'all' ]; then
   rm ../build/* -r -f
 fi
 
 cp ../assets/* ../build/ -r
 
-cp ../src/* ../build/
+cp ../src/index.html ../build/
 
 cat ../src/js/*.js > ../build/js/math.js
 cat ../src/css/*.css > ../build/css/math.css
