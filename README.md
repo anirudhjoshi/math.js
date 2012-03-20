@@ -8,8 +8,8 @@ The aim of this project is replicate the best of Sage/Mathemica/WolframAlpha/Mat
 #### Quick links ####
 
   * [Getting Started](http://anirudhjoshi.github.com/math.js/tutorial.html)
-  * [Contributors](http://github.com/mrdoob/three.js/contributors)
   * [Reference](http://github.com/anirudhjoshi/math.js/wiki)
+  * [Contributors](http://github.com/anirudhjoshi/math.js/contributors)
 
 ### Usage ###
 
@@ -21,11 +21,19 @@ just go to: http://anirudhjoshi.github.com/math.js
 #### Offline ####
 
 If you'd like to use this offline just download the following zip file,
-and open up ```index.html``` in your browser of choice: [ DOWNLOAD LINK
-]
+and open up,
+
+```html
+index.html
+```
+in your browser of choice: [ DOWNLOAD LINK ]
 
 #### Contribute ####
 
-If you'd like to hack on this, fork, and send in a pull request.
+If you'd like to hack on this, fork the develop branch, and send in a pull request with comments/code.
 
-I like to use ```git clone --depth=1 https://anirudhjoshi@github.com/anirudhjoshi/math.js.git``` to speed up the download process.
+I like to use:
+```shell
+git clone --depth=1 https://anirudhjoshi@github.com/anirudhjoshi/math.js.git
+```
+to speed up the download process.
