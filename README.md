@@ -30,10 +30,13 @@ in your browser of choice: [ DOWNLOAD LINK ]
 
 #### Contribute ####
 
-If you'd like to hack on this, fork the develop branch, and send in a pull request with comments/code.
+If you'd like to hack on this, fork, work on the develop branch, and send in a pull request with comments/code.
 
-I like to use:
-```shell
+I like to use,
+
+```
 git clone --depth=1 https://anirudhjoshi@github.com/anirudhjoshi/math.js.git
 ```
+
 to speed up the download process.
+
