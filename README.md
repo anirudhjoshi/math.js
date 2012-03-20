@@ -30,7 +30,7 @@ in your browser of choice: [ DOWNLOAD LINK ]
 
 #### Contribute ####
 
-If you'd like to hack on this, fork, work on the develop branch, and send in a pull request with comments/code.
+If you'd like to hack on this, fork, create your own feature branch, and send in a pull request with comments/code.
 
 I like to use,
 

@@ -8,6 +8,8 @@ $(document).ready(function(){
       var latex_span = _.template("<span><%= latex %></span>"); 
       var sheet = $('#sheet');
 
+      sheet.append( new_list_item );
+
       if ( $(this).hasClass( "mathquill-editable" ) ) {
 
         var string = $(this).mathquill('latex');
@@ -17,9 +19,9 @@ $(document).ready(function(){
         $(this).find("textarea").remove();
 
         var result_span = $( latex_span( { latex : result } ) );
-        console.log( result_span );
 
-        result_span.appendTo( new_list_item ).appendTo( sheet ).mathquill('editable').bind('keydown', evaluate);
+        result_span.appendTo( new_list_item ).mathquill('editable')
+                                             .bind('keydown', evaluate);
     
       }
     }
