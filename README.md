@@ -35,7 +35,7 @@ If you'd like to hack on this, fork, create your own feature branch, and send in
 I like to use,
 
 ```
-git clone --depth=1 https://anirudhjoshi@github.com/anirudhjoshi/math.js.git
+git clone --depth=1 git@github.com:username/math.js
 ```
 
 to speed up the download process.
