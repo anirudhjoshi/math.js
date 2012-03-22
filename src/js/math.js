@@ -13,8 +13,11 @@ $(document).ready(function(){
       if ( $(this).hasClass( "mathquill-editable" ) ) {
 
         var string = $(this).mathquill('latex');
+        console.log( string );
         var result = calculator.parse( string );
-        
+//        var result = "";
+        console.log( result );
+
         $(this).removeClass('mathquill-editable mathquill-textbox');  
         $(this).find("textarea").remove();
 

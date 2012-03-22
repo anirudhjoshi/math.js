@@ -1,3 +1,4 @@
+var $01;
 // jQuery
 var $;
 
