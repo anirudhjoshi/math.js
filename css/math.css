@@ -1,0 +1,15 @@
+#sheet {
+
+  list-style-type: none;
+
+}
+
+
+.mathquill-editable, .mathquill-embedded-latex .mathquill-editable {
+  border: 1px solid #B4FEB7;
+  padding: 4px;
+  -webkit-box-shadow: #B4FEB7 0 0 3px 2px;
+  -moz-box-shadow: #B4FEB7 0 0 3px 2px;
+  box-shadow: #B4FEB7 0 0 3px 2px;
+}
+
