@@ -6,4 +6,9 @@ function gcd( a, b ) {
 
 }
 
+function round( number, decimal_places ) {
 
+  return Math.round( number * Math.pow( 10, decimal_places ) )
+         / Math.pow( 10, decimal_places );
+
+}
